@@ -1,0 +1,7 @@
+# Day_03
+Prblm statement :  The "Healthy Kids" Nutrition & Growth Analysis 
+Focuses on the relationship between a child's dietary habits and their physical development, 
+using a realistic, though fictional, dataset.
+
+Given a dataset consist of 200 children records with the following attributes, 
+child_ID | Age_Months | Gender | Height | Weight | Daily_Fruit_servings | Daily_Veggie_servings | Daily_sugar_Drinks | Screen Time hours | Region | BMI | Health_Status
