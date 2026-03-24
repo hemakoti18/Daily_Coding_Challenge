@@ -1,1 +1,30 @@
+** STAR Method **
+
+Situation: 
+The IT department faced an overwhelming number of tickets, causing inefficiency.
+
+Task:
+Analyze ticket data to identify common issues and propose automation opportunities.
+
+Action:
+ 1. Data Preparation
+   • Cleaned raw ticket data (proper date format, inconsistent data format).
+   • Created calculated columns (days of the week, month, no.of_days).
+ 2. Analysis
+   • month analysis - Grouped tickets by month to check trends.
+   • day analysis - Compared ticket volumes across weekdays to identify peak days.
+   • Analyst analysis - Compared resolution times across support staff to measure average time taken per person.
+   • category analysis - Avg time by Category and priority.
+   • keyword analysis - Most used keywords to address issue.
+  3. Visualization
+    • Built charts to highlight ticket trends and resolution delays.
+Result:
+   • Low priority tickets are being ignored too long,  need better processes to avoid delays.
+   • Teams can schedule more staff on Sundays or prepare extra support to handle the weekend surge.
+   • Managers can offer training or mentoring to help ("Amanda white,Autumn Ryan, Marvin West,Sheila Ball") improve, or check if they’re getting harder tickets than others.
+   • Toni Willey, Natasha Harris, and Janice Stone are top performers,Recognize them and assign them to critical tickets.
+   • Fix root causes of App x crashes and wi-fi setup guides to reduce repeated tickets.
+   • Ticket volume dropped from July (51) to September (27),track whether improvements are working or  customers are solving problems themselves.
+
+
 
