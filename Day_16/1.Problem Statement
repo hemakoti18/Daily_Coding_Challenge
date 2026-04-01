@@ -1,0 +1,34 @@
+Domain:  
+Customer Segmentation 
+
+problem:
+Analyze customer data and segment them based on spending behavior using basic SQL clauses 
+like: 
+• SELECT  
+• WHERE  
+• GROUP BY  
+• ORDER BY  
+• CASE  
+• HAVING  
+
+Questions:
+  Level 1: Basic Filtering 
+1. Show all customers from Bangalore  
+2. Display customers with total_spent > 20000  
+3. List customers aged between 25 and 35  
+ 
+  Level 2: Sorting & Aggregation 
+4. Show all customers sorted by total_spent (highest first)  
+5. Find the total revenue generated  
+6. Find the average spending per customer  
+ 
+  Level 3: Grouping 
+7. Find total spending per city  
+8. Count number of customers in each city  
+ 
+  Level 4: Customer Segmentation (CORE TASK  ) 
+9.Count how many customers fall into each segment  
+ 
+  Level 5: Advanced Basic (HAVING) 
+10.Show cities where total spending is greater than 50000 
+
