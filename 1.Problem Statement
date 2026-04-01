@@ -1,0 +1,60 @@
+Domain:
+Customer Orders Analysis
+
+Problem:
+ analyze customer purchases, orders, and payments using SQL JOIN operations.
+
+Tasks:
+Task 1: Customer Orders 
+Write a query to display: 
+• customer_name  
+• order_id  
+• amount  
+ Include only customers who placed orders. 
+ 
+ Task 2: All Customers 
+Write a query to display: 
+• all customers  
+• their order_id (if any)  
+ Customers without orders should still appear. 
+ 
+Task 3: Invalid Orders 
+Write a query to find: 
+• orders that do NOT have a matching customer  
+ 
+ Task 4: Order Payment Status 
+Write a query to display: 
+• customer_name  
+• order_id  
+• payment_status  
+ Include all orders, even if payment is missing. 
+ 
+ Task 5: Customers Without Orders 
+Find customers who have never placed an order. 
+ 
+ Task 6: Orders Without Payment 
+Find all orders that do not have a payment record. 
+ 
+ Task 7: Total Spending 
+Write a query to calculate: 
+• total amount spent by each customer  
+ 
+Task 8: Fully Paid Customers 
+Find customers whose all orders are marked as 'Completed'. 
+ 
+ Task 9: Highest Order Per Customer 
+Display: 
+• customer_name  
+• highest order amount  
+ 
+ Task 10: Top Customers 
+Find top 2 customers based on total spending. 
+ 
+Rules 
+• Use appropriate JOIN types:  
+o INNER JOIN  
+o LEFT JOIN  
+o RIGHT JOIN  
+• Avoid subqueries unless necessary  
+• Use GROUP BY where required  
+• Write clean and readable SQL 
