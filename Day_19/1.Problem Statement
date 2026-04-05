@@ -24,3 +24,7 @@ consumption. Show the first_name, last_name, and their plots'
 average_water_liters_per_plot. 
 • Calculate the number of harvests per month for the last 12 months. Show the month 
 and the number of harvests. 
+4. Advanced Analysis (Bonus) 
+• Find plots that have a below-average yield for their specific crop type but an above
+average water consumption compared to all other plots with the same crop. List the 
+plot_name, crop_type, yield_kg, and water_amount_liters. 
