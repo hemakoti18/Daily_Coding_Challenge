@@ -18,3 +18,9 @@ lowest. Show plot_name and total_water_liters.
 output should have crop_type, weather_condition, and average_yield_kg. 
 • Find the highest-yielding plot for each soil type. Show the soil_type, plot_name, and 
 highest_yield_kg. 
+3. Farmer & Resource Management 
+• Identify the farmer who manages the plots with the lowest average water 
+consumption. Show the first_name, last_name, and their plots' 
+average_water_liters_per_plot. 
+• Calculate the number of harvests per month for the last 12 months. Show the month 
+and the number of harvests. 
