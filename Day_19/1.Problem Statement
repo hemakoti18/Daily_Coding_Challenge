@@ -1,1 +1,10 @@
+Domain :  Farm Yield Optimization  
 
+Problem : mission is to help a client, a large-scale agricultural operation, analyze their farm 
+data to improve crop yields and optimize resource allocation. The farmer wants to understand 
+the relationship between different factors like planting, irrigation, and harvest to make better 
+decisions for the next season. 
+
+The Tasks  
+Write SQL queries to answer the following questions. Provide the queries and the resulting 
+tables.
