@@ -1,0 +1,8 @@
+Task 1:  
+Find claims where claim amount is greater than average claim amount 
+Task 2:  
+Find policy holders who have at least one approved claim 
+Task 3:  
+Find claims where claim amount is greater than that policy holder’s average claim 
+Task 4:  
+Display each claim along with overall average claim amount
