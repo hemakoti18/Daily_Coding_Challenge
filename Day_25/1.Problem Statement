@@ -1,0 +1,40 @@
+Coding Challenge Set: Strings & Tuples   
+ 
+ Challenge 1: Student Name Formatting 
+A student database stores names in inconsistent formats. 
+ Task 
+Convert all names to proper case (First letter capital). 
+   Input 
+students = ("sunitha", "RAVI", "aNu") 
+ 
+ Challenge 2: Count Total Subjects 
+Each student has subjects stored in a tuple. 
+   Input 
+subjects = ("Math", "Science", "English", "Math", "Science") 
+ Task 
+Find: 
+• Total subjects  
+• Unique subjects  
+ 
+Challenge 3: Remove Extra Spaces from Feedback 
+Student feedback contains unwanted spaces. 
+   Input 
+feedback = ("  good course  ", " excellent ", "average  ") 
+ Task 
+Clean all feedback strings 
+ 
+ Challenge 4: Combine Student Name & Course 
+You have separate tuples for names and courses. 
+   Input 
+names = ("Anu", "Ravi", "John") 
+courses = ("Python", "SQL", "Power BI") 
+ Task 
+Create a tuple: 
+('Anu-Python', 'Ravi-SQL', 'John-Power BI') 
+ 
+ Challenge 5: Extract Email Domains 
+Student emails are stored in tuple. 
+   Input 
+emails = ("anu@gmail.com", "ravi@yahoo.com", "john@edu.com") 
+ Task 
+Extract domains 
