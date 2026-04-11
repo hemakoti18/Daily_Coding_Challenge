@@ -1,6 +1,6 @@
 
 Challenge 1: Student Name Formatting 
-
+-------------------------------------------------------------------------------------------|
 # A student database stores names in inconsistent formats. 
 # Task 
 # Convert all names to proper case (First letter capital).
@@ -18,3 +18,58 @@ print(proper_case)
 students = ("sunitha", "RAVI", "aNu")
 propercase=tuple(name.capitalize() for name in students)
 print(propercase)
+
+
+Challenge 2: Count Total Subjects  
+--------------------------------------------------------------------------------------------|
+# Each student has subjects stored in a tuple.
+#  Input
+#  subjects = ("Math", "Science", "English", "Math", "Science")
+#  Task
+#      Find:
+#            • Total subjects
+#            • Unique subjects
+subjects = ("Math", "Science", "English", "Math", "Science")
+print(f"Total subjects: {len(subjects)}")
+print(f"Unique subjects: {set(subjects)}")
+
+
+Challenge 3: Remove Extra Spaces from Feedback  
+--------------------------------------------------------------------------------------------|
+# Student feedback contains unwanted spaces. 
+# Input 
+# feedback = ("  good course  ", " excellent ", "average  ") 
+# Task 
+# Clean all feedback strings 
+# CODE
+feedback = ("  good course  ", " excellent ", "average  ") 
+result = []
+for name in feedback:
+  result.append(name.strip().capitalize())
+r = tuple(result)
+print(r)
+
+# Another Approach
+feedback = ("  good course  ", " excellent ", "average  ") 
+result = tuple(name.strip().capitalize() for name in feedback)
+print(result)
+
+ Challenge 4: Combine Student Name & Course 
+---------------------------------------------------------------------------------------------|
+You have separate tuples for names and courses. 
+   Input 
+names = ("Anu", "Ravi", "John") 
+courses = ("Python", "SQL", "Power BI") 
+ Task 
+Create a tuple: 
+('Anu-Python', 'Ravi-SQL', 'John-Power BI') 
+
+
+
+ Challenge 5: Extract Email Domains
+---------------------------------------------------------------------------------------------|
+Student emails are stored in tuple. 
+   Input 
+emails = ("anu@gmail.com", "ravi@yahoo.com", "john@edu.com") 
+ Task 
+Extract domains
