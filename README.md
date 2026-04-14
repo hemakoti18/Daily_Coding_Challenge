@@ -1,6 +1,9 @@
 # Daily_Coding_Challenges
 --------------------------
-# - Day_01: Regional Sales Analysis (Excel)
+
+# | Day       | Challenge title                                      | Tool       |  Key Skills Praticed                              |
+---------------------------------------------------------------------------------------------------------------------------------------
+  | Day_01    | Regional Sales Analysis                              | Excel      |  Pivot tables, Pivot charts                       |
 
 - ![Regional Sales Dashboard](Day_01/image-day_01.png)
 - Day_02: Impact of Screen Time on Student Performance Analysis (Excel)
