@@ -7,7 +7,10 @@
 ### 
 | Day       | Challenge                                            | Tool       |  Key Skills Praticed                                     |
 |-----------|------------------------------------------------------|------------|----------------------------------------------------------|
-| Day_01    | Regional Sales Analysis                              | Excel      |  • Pivot tables <br> • Pivot charts                          |
+| Day_01    | Regional Sales Analysis                              | Excel      |  • Pivot tables <br> • Pivot charts                      |
+
+### Insights
+- West region has highest revenue than other regions
 
 
 
