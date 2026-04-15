@@ -1,6 +1,6 @@
 # Daily_Coding_Challenges
 --------------------------
-### Day_01  ## Regional Sales Analysis                              
+### Day_01 - Regional Sales Analysis                              
  
 | Day       | Challenge                                            | Tool       |  Key Skills Praticed                                     |
 |-----------|------------------------------------------------------|------------|----------------------------------------------------------|
