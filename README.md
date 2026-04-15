@@ -11,7 +11,7 @@
 
 ### Insights
 - West region has highest revenue ( ₹1,17,043 ) than other regions
-- North region has lowest revenue ( ₹1,04,108 ) than other regions
+- North region has lowest revenue ( ₹1,04,808 ) than other regions
 
 
 
