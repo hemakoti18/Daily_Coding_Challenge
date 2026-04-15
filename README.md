@@ -1,13 +1,13 @@
 # Daily_Coding_Challenges
 --------------------------
 ## Day_01
-### Report
-<img src="Day_01/Revenue_by_Region-(Day_01).png" alt="Regional Sales Analysis Report" width="600"/>
-
-### 
+ 
 | Day       | Challenge                                            | Tool       |  Key Skills Praticed                                     |
 |-----------|------------------------------------------------------|------------|----------------------------------------------------------|
 | Day_01    | Regional Sales Analysis                              | Excel      |  • Pivot tables <br> • Pivot charts                      |
+
+### Report
+<img src="Day_01/Revenue_by_Region-(Day_01).png" alt="Regional Sales Analysis Report" width="600"/>
 
 ### Insights
 - West region has highest revenue than other regions
