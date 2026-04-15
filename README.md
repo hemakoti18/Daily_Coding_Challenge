@@ -17,7 +17,7 @@
 |-----------|------------------------------------------------------------------|------------|----------------------------------------------------------------------------|
 | Day_02    | Impact of Screen Time on Student Performance Analysis            | Excel      |  1. Pivot Table <br> 2. Pivot Chart <br> 3. KPI's <br> 4. Slicers          |                                
                                                                         
-
+### Dashboard
 <img src="Day_02/Student_Analysis.png" alt="Student Analysis Dashboard" width="800"/>
 
 
