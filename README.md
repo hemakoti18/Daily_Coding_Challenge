@@ -25,6 +25,9 @@
 ### Dashboard
 <img src="Day_02/Student_Analysis.png" alt="Student Analysis Dashboard" width="800"/>
 
+### Insights
+- High screen time students has less average test scores.
+
 
 
 
