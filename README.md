@@ -6,7 +6,8 @@
 | Day_01    | Regional Sales Analysis                              | Excel      |  Pivot tables, Pivot charts                              |
 ![Regional Sales Analysis Report](Day_01/(RevenuebyRegion-Day_01).png)
 ![Regional Sales Dashboard](Day_01/(image-day_01).png)
-![Regional Sales Dashboard](Day_01/image(day1).png)
+![Regional Sales Dashboard](Day_01/(image-day_01).png)
+Day_01/image-day_01.png
 
 
 - Day_02: Impact of Screen Time on Student Performance Analysis (Excel)
