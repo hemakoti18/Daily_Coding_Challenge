@@ -1,7 +1,7 @@
 # Daily_Coding_Challenges
 --------------------------
 ## Day_01
-### Dashboard
+### Report
 <img src="Day_01/Revenue_by_Region-(Day_01).png" alt="Regional Sales Analysis Report" width="600"/>
 
 ### 
