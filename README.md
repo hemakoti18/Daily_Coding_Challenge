@@ -1,6 +1,6 @@
 # Daily_Coding_Challenges
 --------------------------
-#  Day_01                            
+##  Day_01                            
  
 | Day       | Challenge                                            | Tool       |  Key Skills Praticed                                     |
 |-----------|------------------------------------------------------|------------|----------------------------------------------------------|
@@ -9,7 +9,7 @@
 ### Report
 <img src="Day_01/Revenue_by_Region-(Day_01).png" alt="Regional Sales Analysis Report" width="600"/>
 
-#### Insights
+### Insights
 - West region has highest revenue ( ₹1,17,043 ) than other regions
 - North region has lowest revenue ( ₹1,04,108 ) than other regions
 
