@@ -14,7 +14,7 @@
 
 | Day       | Challenge                                                  | Tool       |  Key Skills Praticed                                              |
 |-----------|------------------------------------------------------------|------------|-------------------------------------------------------------------|
-| Day_02    | Impact of Screen Time on Student Performance Analysis      | Excel      |  Pivot tables,
+| Day_02    | Impact of Screen Time on Student Performance Analysis      | Excel      |  Pivot tables,                                                    |
                                                                                       |   Pivot charts, KPI's, Slicers for Interactive                    |
 
 
