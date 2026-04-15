@@ -10,7 +10,7 @@
 <img src="Day_01/Revenue_by_Region-(Day_01).png" alt="Regional Sales Analysis Report" width="600"/>
 
 ### Insights
-- West region has highest revenue than other regions
+- West region has highest revenue ( 117043 ) than other regions
 
 
 
