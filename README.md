@@ -8,6 +8,8 @@
 
 
 <img src="Day_01/Revenue_by_Region-(Day_01).png" alt="Regional Sales Analysis Report" width="600"/>
+![Regional Sales Analysis Report](<img width="1765" height="616" alt="Student_Analysis" src="https://github.com/user-attachments/assets/69b1f704-4808-47f5-b3ea-e70fed36bc32" />
+)
 
 
 
