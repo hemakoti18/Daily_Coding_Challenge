@@ -1,7 +1,7 @@
 # Daily_Coding_Challenges
 --------------------------
-### Day_01
-#### Dashboard
+## Day_01
+### Dashboard
 <img src="Day_01/Revenue_by_Region-(Day_01).png" alt="Regional Sales Analysis Report" width="600"/>
 
 ### 
@@ -13,12 +13,13 @@
 
 
 ## Day_02
+### Dashboard
+<img src="Day_02/Student_Analysis.png" alt="Student Analysis Dashboard" width="800"/>
+
 | Day       | Challenge                                                        | Tool       |  Key Skills Praticed                                                       |
 |-----------|------------------------------------------------------------------|------------|----------------------------------------------------------------------------|
 | Day_02    | Impact of Screen Time on Student Performance Analysis            | Excel      |  1. Pivot Table <br> 2. Pivot Chart <br> 3. KPI's <br> 4. Slicers          |                                
-                                                                        
-### Dashboard
-<img src="Day_02/Student_Analysis.png" alt="Student Analysis Dashboard" width="800"/>
+
 
 
 
