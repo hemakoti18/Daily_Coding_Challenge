@@ -4,6 +4,7 @@
 | Day       | Challenge                                            | Tool       |  Key Skills Praticed                                     |
 |-----------|------------------------------------------------------|------------|----------------------------------------------------------|
 | Day_01    | Regional Sales Analysis                              | Excel      |  Pivot tables, Pivot charts                              |
+![Regional Sales Analysis Report](Revenue by Region
 
 ![Regional Sales Dashboard](Day_01/image-day_01.png)
 
