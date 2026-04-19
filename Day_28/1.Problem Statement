@@ -1,1 +1,19 @@
-
+*******  Insurance Claims Analysis  *******
+ Tasks 
+ Task 1: Total Approved Claim Amount 
+Calculate the total claim amount for all Approved claims. 
+ 
+ Task 2: Count Rejected Claims 
+Find how many claims are Rejected. 
+ 
+ Task 3: High-Value Claims 
+Print all policy IDs where claim amount is greater than ₹10,000. 
+ 
+ Task 4: Average Age of Approved Customers 
+Find the average age of customers whose claims are Approved. 
+ 
+ Task 5: Risk Category Tagging 
+Create a new list called risk_category: 
+• Age < 30 → "Low Risk"  
+• Age 30–45 → "Medium Risk"  
+• Age > 45 → "High Risk" 
