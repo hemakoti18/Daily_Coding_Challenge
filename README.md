@@ -31,8 +31,8 @@
 
 ## Day_19
 
-| Day  | Challenge Title                                | Tool   | Methods used                        |
-|------|------------------------------------------------|--------|-------------------------------------|
+| Day  | Challenge Title                                | Tool   | Methods used                                                             |
+|------|------------------------------------------------|--------|--------------------------------------------------------------------------|
 |  19  |    Farm Yield Optimization Analysis            |    SQL |     1.Inner Join <br> 2.With CTE as 3.Extract 4.Monthname 5.Date_format  |
 
 
