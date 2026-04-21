@@ -38,7 +38,7 @@
 ## Day_15
 | Day  | Challenge Title                            | Tool   | Methods used                                                                                       |
 |------|--------------------------------------------|--------|----------------------------------------------------------------------------------------------------|
-| 15   | College Student Management System  Analysi | SQL    | 1.Ranking window function ( row_number ) <br> 2.Join + where <br> 3.Aggregate functions            |
+| 15   | College Student Management System  Analysis | SQL    | 1.Ranking window function ( row_number ) <br> 2.Join + where <br> 3.Aggregate functions            |
 
 ## Day_19
 | Day  | Challenge Title                          | Tool   | Methods used                                                                                       |
