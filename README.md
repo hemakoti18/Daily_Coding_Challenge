@@ -2,7 +2,7 @@
 --------------------------
 ##  Day_01                            
  
-| Day       | Challenge Title                                           | Tool       |  Methods Used                                            |
+| Day       | Challenge Title                                      | Tool       |  Methods Used                                            |
 |-----------|------------------------------------------------------|------------|----------------------------------------------------------|
 | 1         | Regional Sales Analysis                              | Excel      |  • Pivot tables <br> • Pivot charts                      |
 
@@ -19,7 +19,7 @@
 ## Day_02
 
 
-| Day       | Challenge                                                        | Tool       |  Methods Used                                                      | 
+| Day       | Challenge Title                                                  | Tool       |  Methods Used                                                      | 
 |-----------|------------------------------------------------------------------|------------|--------------------------------------------------------------------|
 | 2         | Impact of Screen Time on Student Performance Analysis            | Excel      |  1. Pivot Table <br> 2. Pivot Chart <br> 3. KPI's <br> 4. Slicers  |   
 
