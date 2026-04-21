@@ -19,9 +19,9 @@
 ## Day_02
 
 
-| Day       | Challenge                                                        | Tool       |  Methods Used                                                              |
-|-----------|------------------------------------------------------------------|------------|----------------------------------------------------------------------------|
-| 2         | Impact of Screen Time on Student Performance Analysis            | Excel      |  1. Pivot Table <br> 2. Pivot Chart <br> 3. KPI's <br> 4. Slicers          |   
+| Day |     | Challenge                                                        | Tool       |  Methods Used                                                       
+|-----------|------------------------------------------------------------------|------------|--------------------------------------------------------------------|
+| 2         | Impact of Screen Time on Student Performance Analysis            | Excel      |  1. Pivot Table <br> 2. Pivot Chart <br> 3. KPI's <br> 4. Slicers  |   
 
 ### Dashboard
 <img src="Day_02/Student_Analysis.png" alt="Student Analysis Dashboard" width="800"/>
@@ -29,6 +29,10 @@
 ### Insights
 - High screen time students has less average test scores.
 
+## Day_14
+| Day  | Challenge Title                          | Tool   | Methods used                                                                                       |
+|------|------------------------------------------|--------|----------------------------------------------------------------------------------------------------|
+| 14   | Sales Analysis                           | SQL    | 1. Select <br> 2. Where <br> 3. Order by <br> 4. Distinct
 ## Day_19
 
 | Day  | Challenge Title                          | Tool   | Methods used                                                                                       |
