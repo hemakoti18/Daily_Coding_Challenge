@@ -29,6 +29,13 @@
 ### Insights
 - High screen time students has less average test scores.
 
+## Day_19
+
+| Day  | Challenge Title                                | Tool   | Methods used                        |
+|------|------------------------------------------------|--------|-------------------------------------|
+  19      Farm Yield Optimization Analysis                SQL      1.Inner Join <br> 2.With CTE
+
+
 ## Pending
 - Day_03: "Healthy Kids" Nutrition & Growth Analysis (Excel)
 - Day_05:  IT Help Desk Ticket Analysis (Excel)
