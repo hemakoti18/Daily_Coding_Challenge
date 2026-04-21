@@ -33,12 +33,18 @@
 ## Day_14
 | Day  | Challenge Title                          | Tool   | Methods used                                                                                       |
 |------|------------------------------------------|--------|----------------------------------------------------------------------------------------------------|
-| 14   | Sales Analysis                           | SQL    | 1. Select <br> 2. Where <br> 3. Order by <br> 4. Distinct
+| 14   | Sales Analysis                           | SQL    | 1. Select <br> 2. Where clause <br> 3. Order by <br> 4. Distinct
 
 ## Day_15
 | Day  | Challenge Title                            | Tool   | Methods used                                                                                       |
 |------|--------------------------------------------|--------|----------------------------------------------------------------------------------------------------|
-| 15   | College Student Management System  Analysis| SQL    | 1. Ranking window function ( row_number ) <br> 2. Join + where <br> 3. Aggregate functions         |
+| 15   | College Student Management System  Analysis| SQL    | 1. Ranking window function ( row_number ) <br> 2. Join + where clause <br> 3. Aggregate functions         |
+
+## Day_16
+| Day  | Challenge Title                          | Tool   | Methods used                                                                                       |
+|------|------------------------------------------|--------|----------------------------------------------------------------------------------------------------|
+| 16   | Customer Segmentation Analysis           | SQL    | 1. Between Clause <br> 2. Aggregation + Group by <br> 3. Conditional Expression ( case when end )                                                                  <br> 4. Group by + Having Clause
+
 
 ## Day_19
 | Day  | Challenge Title                          | Tool   | Methods used                                                                                       |
