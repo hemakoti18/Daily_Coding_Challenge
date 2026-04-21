@@ -43,7 +43,7 @@
 ## Day_16
 | Day  | Challenge Title                          | Tool   | Methods used                                                                                       |
 |------|------------------------------------------|--------|----------------------------------------------------------------------------------------------------|
-| 16   | Customer Segmentation Analysis           | SQL    | 1. Between Clause <br> 2. Aggregation + Group by <br> 3. Conditional Expression ( case when end ) with select                                                                 <br> 4. Group by + Having Clause
+| 16   | Customer Segmentation Analysis           | SQL    | 1. Between Clause <br> 2. Aggregation + Group by <br> 3. Conditional Expression ( case when end )                                                                  with select <br> 4. Group by + Having Clause
 
 
 ## Day_19
