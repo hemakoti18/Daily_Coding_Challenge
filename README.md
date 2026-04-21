@@ -33,7 +33,7 @@
 
 # SQL
 
-## Day_14
+### Day_14
 | Day  | Challenge Title                          | Tool   | Methods used                                                                                       |
 |------|------------------------------------------|--------|----------------------------------------------------------------------------------------------------|
 | 14   | Sales Analysis                           | SQL    | 1. Select <br> 2. Where clause <br> 3. Order by <br> 4. Distinct
