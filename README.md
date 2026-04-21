@@ -31,9 +31,9 @@
 
 ## Day_19
 
-| Day  | Challenge Title                                | Tool   | Methods used                                                                            |
-|------|------------------------------------------------|--------|-----------------------------------------------------------------------------------------|
-|  19  |    Farm Yield Optimization Analysis            |    SQL |     1.Inner Join <br> 2.With CTE as <br> 3.Subquery + join 4.Extract <br> 5.Monthname <br> 6.Date_format  |
+| Day  | Challenge Title                                | Tool   | Methods used                                                                                   |
+|------|------------------------------------------------|--------|------------------------------------------------------------------------------------------------|
+|  19  |    Farm Yield Optimization Analysis            |    SQL |     1.Inner Join <br> 2.With CTE as <br> 3.Subquery 4.Extract <br> 5.Monthname <br> 6.Date_format  |  
 
 
 ## Pending
