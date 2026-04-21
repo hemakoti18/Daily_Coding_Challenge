@@ -62,7 +62,10 @@ ________________________________________________________________________________
 |------|------------------------------------------|--------|----------------------------------------------------------------------------------------------------|
 |  19  |    Farm Yield Optimization Analysis      |    SQL | 1.Inner Join <br> 2.With CTE as <br> 3.Subquery <br> 4.Extract <br> 5.Monthname <br> 6.Date_format |  
 
-
+### Day_21
+| Day  | Challenge Title                          | Tool   | Methods used                                                                                       |
+|------|------------------------------------------|--------|----------------------------------------------------------------------------------------------------|
+| 21   | Insurance Claims Analysis                | SQL    | 1.
 ## Pending
 - Day_03: "Healthy Kids" Nutrition & Growth Analysis (Excel)
 - Day_05:  IT Help Desk Ticket Analysis (Excel)
