@@ -47,7 +47,12 @@
 ## Day_17
 | Day  | Challenge Title                          | Tool   | Methods used                                                                                       |
 |------|------------------------------------------|--------|----------------------------------------------------------------------------------------------------|
-| 17   | Customer Orders Analysis                 | SQL    | 1.Left Join <br> 2.Right Join <br> 3.Left Join + Union + Right Join <br> 4.Coalesce <br> 5.Where                                                                   Clause + Null                         
+| 17   | Customer Orders Analysis                 | SQL    | 1.Left Join <br> 2.Right Join <br> 3.Left Join + Union + Right Join <br> 4.Coalesce <br> 5.Where                                                                   Clause + Null     
+## Day_18
+| Day  | Challenge Title                          | Tool   | Methods used                                                                                       |
+|------|------------------------------------------|--------|----------------------------------------------------------------------------------------------------|
+| 18   |  Social Media Data Analysis              | SQL    | 1.
+
 ## Day_19
 | Day  | Challenge Title                          | Tool   | Methods used                                                                                       |
 |------|------------------------------------------|--------|----------------------------------------------------------------------------------------------------|
