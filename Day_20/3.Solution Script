@@ -1,1 +1,26 @@
 
+****** Tasks *******
+
+-- 1. Find the total number of insurance records.
+select count(*) as Total_Insurance_Records from medical_insurance ;
+
+-- 2. Retrieve the details of all smokers above age 40.
+select * from medical_insurance where smoker = 'Yes' ;
+
+-- 3. Count how many male and female policyholders exist in the dataset.
+select gender as 'Gender' , count(*) as count from medical_insurance group by gender ;
+
+-- 4. Calculate the average insurance cost of smokers vs. non-smokers. 
+select Smoker, Format(Avg(insurance_cost),2) as avg_insurance from medical_insurance group by Smoker ;
+
+-- 5. Find the region with the highest average insurance cost. 
+with highest_average as (
+						  select mi.region, avg(mi.insurance_cost) as avg_insurance from medical_insurance mi group by mi.region )
+select m.region, round(ha.avg_insurance,2) as avg_insurance from medical_insurance m
+join  highest_average ha on ha.region = m.region 
+order by ha.avg_insurance desc limit 1 ;
+-- another approach 
+select region, round(avg(insurance_cost),2) as avg_insurance 
+    from medical_insurance
+	group by region 
+    order by region desc limit 1 ;
