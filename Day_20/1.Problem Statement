@@ -1,1 +1,18 @@
-
+ Tasks  
+1. Find the total number of insurance records. 
+2. Retrieve the details of all smokers above age 40. 
+3. Count how many male and female policyholders exist in the dataset. 
+4. Calculate the average insurance cost of smokers vs. non-smokers. 
+5. Find the region with the highest average insurance cost. 
+6. List the top 5 policyholders who paid the highest insurance cost. 
+7. Calculate the average insurance cost grouped by age group: 
+o Young (18–30), Middle-aged (31–50), Senior (51+). 
+8. Identify if smokers with BMI > 30 are paying significantly higher insurance than non
+smokers. 
+9. Find the correlation-like insights (not actual correlation in SQL, but using GROUP BY) – 
+e.g., 
+o Avg cost by number of children. 
+o Avg cost by gender. 
+o Avg cost by region. 
+10. Write a query to find the insurance cost difference between smokers and non-smokers 
+in each region. 
