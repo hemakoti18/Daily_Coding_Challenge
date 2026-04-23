@@ -66,7 +66,7 @@ ________________________________________________________________________________
 # Day_20
 | Day  | Challenge Title                          | Tool   | Methods used                                                                                       |
 |------|------------------------------------------|--------|----------------------------------------------------------------------------------------------------|
-| 20   | Medical Insurance Cost Analysis          | SQL    | 1. Group by <br> 2. With CTE + Join <br> 3. 
+| 20   | Medical Insurance Cost Analysis          | SQL    | 1. Group by <br> 2. With CTE + Join <br> 3.From + Union All + left Join 4.With CTE + Case When End + join 
 
 ### Day_21
 | Day  | Challenge Title                          | Tool   | Methods used                                                                                       |
