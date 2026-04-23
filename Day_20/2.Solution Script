@@ -24,3 +24,82 @@ select region, round(avg(insurance_cost),2) as avg_insurance
     from medical_insurance
 	group by region 
     order by region desc limit 1 ;
+-- 6. List the top 5 policyholders who paid the highest insurance cost. 
+select * from medical_insurance
+where insurance_cost = ( select max(insurance_cost) from medical_insurance );
+-- Another approach
+select * from medical_insurance
+order by insurance_cost desc limit 1 ;
+
+-- 7. Calculate the average insurance cost grouped by age group: 
+-- o Young (18–30), Middle-aged (31–50), Senior (51+).
+with age as (
+              select 
+                   policy_id,
+                   case
+                   when age between 18 and 30 then 'Young'
+                   when age between 31 and 50 then 'Middle-aged'
+                   else 'Senior'
+                   end as age_group 
+			  from medical_insurance )
+select a.age_group, round(avg(insurance_cost),2) as avg_insurance 
+from  medical_insurance m
+join age a on a.policy_id = m.policy_id
+group by a.age_group ;
+
+-- 8. Identify if smokers with BMI > 30 are paying significantly higher insurance than non smokers. 
+SELECT s.smoker, coalesce(ROUND(AVG(m.insurance_cost),2),0) AS avg_insurance_cost
+FROM (
+    SELECT 'Yes' AS smoker
+    UNION ALL
+    SELECT 'No' AS smoker
+) AS s
+LEFT JOIN medical_insurance m 
+       ON m.smoker = s.smoker 
+      AND m.bmi > 30
+GROUP BY s.smoker;
+
+
+-- Stored Procedure
+DELIMITER //
+CREATE PROCEDURE get_mi()
+BEGIN
+    SELECT * FROM medical_insurance;
+END //
+DELIMITER ;
+-- call procedure
+CALL get_mi();
+
+-- 9. Find the correlation-like insights (not actual correlation in SQL, but using GROUP BY) – 
+-- e.g., 
+-- o Avg cost by number of children. 
+select children, round(avg(insurance_cost),2) as insurance_cost 
+    from medical_insurance
+    group by children ;
+-- Another approach union all
+select c.children, round(avg(insurance_cost),2) as insurance_cost
+    from ( select 0 as children -- 1st select query only take as column name
+            union all
+		   select 1 as children
+           union all 
+           select 2 as children 
+           union all 
+           select 3 as children
+		 ) as c
+left join medical_insurance m on m.children = c.children
+group by c.children ;
+
+-- o Avg cost by gender. 
+select g.gender ,round(avg(insurance_cost),2) as insurance_cost
+    from ( 
+           select 'Male' as gender
+           union all
+           select 'Female' as gender 
+         ) as g
+left join medical_insurance m on m.gender = g.gender 
+group by g.gender ;
+
+-- o Avg cost by region
+select region, round(avg(insurance_cost),2) as insurance_cost
+    from medical_insurance
+    group by region ;
