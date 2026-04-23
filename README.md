@@ -63,7 +63,7 @@ ________________________________________________________________________________
 |  19  |    Farm Yield Optimization Analysis      |    SQL | 1.Inner Join <br> 2.With CTE as <br> 3.Subquery <br> 4.Extract <br> 5.Monthname <br> 6.Date_format |  
 
 
-# Day_20
+### Day_20
 | Day  | Challenge Title                          | Tool   | Methods used                                                                                       |
 |------|------------------------------------------|--------|----------------------------------------------------------------------------------------------------|
 | 20   | Medical Insurance Cost Analysis          | SQL    | 1. Group by <br> 2. With CTE + Join <br> 3.From + Union All + left Join <br> 4.With CTE + Case When End + join 
