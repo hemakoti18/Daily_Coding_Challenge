@@ -1,1 +1,17 @@
-
+********  Sales Data Analysis (Variables & Data Types) *********
+Tasks 
+Task 1: Declare the variables and assign the values as above with appropriate Data Type 
+Task 2: Identify Data Types 
+Print the data type of each variable using type(). 
+Task 3: Calculate Total Price 
+• Total price before discount 
+Task 4: Apply Discount 
+• Total price after discount 
+ 
+ 
+ Task 5: Add GST (18%) 
+• Calculate GST on the final price  
+• Add it to get the final bill amount  
+ 
+ Task 6: Display Output 
+Print the final bill in a clean format: 
