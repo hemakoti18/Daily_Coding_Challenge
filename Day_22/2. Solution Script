@@ -1,5 +1,5 @@
 
-*******   Insurance Claims Analysis  ********
+*******   Sales Data Analysis  ********
 Tasks 
 
 Task 1: Declare the variables and assign the values as above with appropriate Data Type 
@@ -28,51 +28,69 @@ Print the data type of each variable using type().
 
 Task 3: Calculate Total Price 
 • Total price before discount 
--- print(round(product_price * quantity,2))
-   2399.97
+   Variables:
+-- Total_price = product_price * quantity 
+   Code:
+-- print(f"Total_price : ₹{round(Total_price,2)}")
+   Output:
+   Final_price : ₹2399.97
 
 
 Task 4: Apply Discount 
 • Total price after discount 
--- print(product_price * discount)
-   79.99900000000001
+   Variables:
+-- Total_price = product_price * quantity 
+-- Discount_amount = Total_price * discount
+-- Final_price = Total_price - Discount_amount
+   code:
+-- print(f"Final_price : ₹{round(Final_price,2)}")
+   Output:
+   Final_price : ₹2159.97
+
+   
 
   
  Task 5: Add GST (18%) 
 • Calculate GST on the final price  
+   Variables:
 -- " Total_price = product_price * quantity
 -- " Discount_amount = Total_price * discount
 -- " Final_price = Total_price - Discount_amount
 -- " Gst = Final_price * 0.18
 -- " Gst_final_price = Final_price + Gst
+   Code:
 -- print(round(Total_price,2))
 -- print(round(Discount_amount))
 -- print(round(Final_price))
 -- print(round(Gst))
 -- print(round(Gst_final_price))
+   Output:
+   Total_price : ₹2399.97
+   Discount_amount : ₹240.0
+   Final_price : ₹2160.0
+   GST : 388.8
+   Gst_final_price : ₹2548.77
 
-2399.97
-240
-2160
-389
-2549
 
 
 • Add it to get the final bill amount  
--- print(Gst_final_price)
-   2548.7681400000006
+   Code:
+-- print(f"Gst_final_price : ₹{round(Gst_final_price,2)}")
+   Output:
+   Gst_final_price : ₹2548.77
 
  
  Task 6: Display Output 
 Print the final bill in a clean format:
+   Code:
 -- print(f"order_id: {order_id}")
 -- print(f"customer_name: {customer_name}")
 -- print(f"product_price: ₹{format(product_price * quantity,',.2f')}")
 -- print(f"Discount_Applied: Yes")
 -- print(f"Final Amount(including GST): ₹{format(Gst_final_price,',.2f')}")
-
-order_id: ORD12345
-customer_name: Rahul
-product_price: ₹2,399.97
-Discount_Applied: Yes
-Final Amount(including GST): ₹2,548.77
+   Output:
+   order_id: ORD12345
+   customer_name: Rahul
+   product_price: ₹2,399.97
+   Discount_Applied: Yes
+   Final Amount(including GST): ₹2,548.77
