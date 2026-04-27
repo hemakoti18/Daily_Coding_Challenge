@@ -1,1 +1,43 @@
+********   Ride Booking Analysis *********
 
+
+Tasks 
+ Count total rides 
+     Find how many ride records are present.
+-- Total_rides = len(rides)
+-- print(f"Total Rides : {Total_rides}")
+Output:
+Total Rides : 5
+
+ 
+Extract all rides from Bangalore 
+     Print only tuples where city = "Bangalore" 
+
+-- # list comprehension
+bangalore_rides = [ride for ride in rides if ride[2] == "Bangalore"]
+print(bangalore_rides)
+for i, ride in enumerate(bangalore_rides, start=1):
+  print(f"Ride {i} : {ride}")
+print(f"count of bangalore rides : {len(bangalore_rides)}")
+Ouput:
+[(101, 'Ravi', 'Bangalore', 250, 4.5), (103, 'Kiran', 'Bangalore', 300, 4.8), (105, 'Arjun', 'Bangalore', 150, 3.9)]
+Ride 1 : (101, 'Ravi', 'Bangalore', 250, 4.5)
+Ride 2 : (103, 'Kiran', 'Bangalore', 300, 4.8)
+Ride 3 : (105, 'Arjun', 'Bangalore', 150, 3.9)
+count of bangalore rides : 3
+
+
+ 
+Find total revenue from Bangalore 
+     Sum of fares where city is Bangalore 
+ 
+ Find highest rated driver 
+     Print the tuple with maximum rating 
+ 
+ Average rating per city 
+     Output should look like: 
+{ 
+    "Bangalore": 4.4, 
+    "Hyderabad": 4.2, 
+    "Chennai": 4.0 
+} 
