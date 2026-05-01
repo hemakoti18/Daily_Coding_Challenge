@@ -1,1 +1,21 @@
+Tasks 
+ Count total rides 
+     Find how many ride records are present. 
+ 
+Extract all rides from Bangalore 
+     Print only tuples where city = "Bangalore" 
+ 
+Find total revenue from Bangalore 
+     Sum of fares where city is Bangalore 
+ 
+ Find highest rated driver 
+     Print the tuple with maximum rating 
+ 
+ Average rating per city 
+     Output should look like: 
+{ 
+    "Bangalore": 4.4, 
+    "Hyderabad": 4.2, 
+    "Chennai": 4.0 
+} 
 
