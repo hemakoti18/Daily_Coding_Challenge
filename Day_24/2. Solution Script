@@ -2,7 +2,7 @@
 
 
 Tasks 
- Count total rides 
+ 1.Count total rides 
      Find how many ride records are present.
 -- Total_rides = len(rides)
 -- print(f"Total Rides : {Total_rides}")
@@ -10,15 +10,15 @@ Output:
 Total Rides : 5
 
  
-Extract all rides from Bangalore 
+2.Extract all rides from Bangalore 
      Print only tuples where city = "Bangalore" 
 
--- # list comprehension
-bangalore_rides = [ride for ride in rides if ride[2] == "Bangalore"]
-print(bangalore_rides)
-for i, ride in enumerate(bangalore_rides, start=1):
-  print(f"Ride {i} : {ride}")
-print(f"count of bangalore rides : {len(bangalore_rides)}")
+   # list comprehension
+-- bangalore_rides = [ride for ride in rides if ride[2] == "Bangalore"]
+-- print(bangalore_rides)
+-- for i, ride in enumerate(bangalore_rides, start=1):
+     print(f"Ride {i} : {ride}")
+-- print(f"count of bangalore rides : {len(bangalore_rides)}")
 Ouput:
 [(101, 'Ravi', 'Bangalore', 250, 4.5), (103, 'Kiran', 'Bangalore', 300, 4.8), (105, 'Arjun', 'Bangalore', 150, 3.9)]
 Ride 1 : (101, 'Ravi', 'Bangalore', 250, 4.5)
@@ -28,11 +28,53 @@ count of bangalore rides : 3
 
 
  
-Find total revenue from Bangalore 
-     Sum of fares where city is Bangalore 
- 
- Find highest rated driver 
-     Print the tuple with maximum rating 
+3.Find total revenue from Bangalore 
+  Sum of fares where city is Bangalore 
+
+  # list comprehension
+-- bangalore_revenue = sum([ride[3] for ride in rides if ride[2] == "Bangalore"])
+-- print(f"Banaglore Total Revenue : {bangalore_revenue}")
+Output:
+Banaglore Total Revenue : 700
+
+  # traditional loop
+-- Total_revenue = 0
+-- for ride in rides:
+     if ride[2] == "Bangalore":
+       Total_revenue += ride[3]
+       print(ride)
+--  print(f"Bangalore Total Revenue : {Total_revenue}")
+Output:
+(101, 'Ravi', 'Bangalore', 250, 4.5)
+(103, 'Kiran', 'Bangalore', 300, 4.8)
+(105, 'Arjun', 'Bangalore', 150, 3.9)
+Bangalore Total Revenue : 700
+
+
+ 4.Find highest rated driver 
+   Print the tuple with maximum rating 
+  # for loop
+-- for ride in rides:
+     if ride[4] == max([ride[4] for ride in rides]):
+       print(f"highest rated driver : {ride[1],ride[4]}")
+Output:
+highest rated driver : ('Kiran', 4.8)
+
+  # list comprehension with tuple ()
+-- Max_rating = max([(ride[4], ride[1]) for ride in rides])
+-- print(f"highest rated driver : {Max_rating[1]},  rating : {Max_rating[0]}")
+
+-- for ride in rides:
+     if ride[4] == max([ride[4] for ride in rides]):
+       print(f"highest rated driver : {ride[1],ride[4]}")
+   # list comprehension + if cond
+-- max_rating = [ride[1] for ride in rides if ride[4] == max([ride[4] for ride in rides])]
+-- print(f"highest rated driver : {max_rating}")
+Output:
+highest rated driver : Kiran,  rating : 4.8
+highest rated driver : ('Kiran', 4.8)
+highest rated driver : ['Kiran']
+
  
  Average rating per city 
      Output should look like: 
@@ -41,3 +83,32 @@ Find total revenue from Bangalore
     "Hyderabad": 4.2, 
     "Chennai": 4.0 
 } 
+
+Code:
+   # step-1 Collect ratings city-wise
+-- city_avg_rating ={}
+   # for loop
+-- for ride in rides:
+     city = ride[2]
+     rating = ride[4]
+     if city not in city_avg_rating:
+     # dictionary access కి ఎప్పుడూ square brackets [] వాడతాం.and [] lo "Key = variable" ivvali
+       city_avg_rating[city] = []
+     city_avg_rating[city].append(rating)
+print(city_avg_rating)
+
+   # dictionary comprehension
+-- avg_ratings = {city: sum(ratings)/len(ratings)
+                   for city, ratings in city_avg_rating.items()}......# city_avg_rating.items() returns ---- list of tuples [ ("banglore":4.5), ("delhi":4.6) ]
+-- print(avg_ratings)
+
+   # rounded average
+-- rounded_avg_ratings = {city: round(avg, 1) for city, avg in avg_ratings.items()}
+-- print(rounded_avg_ratings)
+Output:
+{'Bangalore': [4.5, 4.8, 3.9], 'Hyderabad': [4.2], 'Chennai': [4.0]}
+{'Bangalore': 4.3999999999999995, 'Hyderabad': 4.2, 'Chennai': 4.0}
+{'Bangalore': 4.4, 'Hyderabad': 4.2, 'Chennai': 4.0}
+
+
+
