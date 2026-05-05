@@ -1,1 +1,13 @@
-
+******  Ride Booking Data Analysis  *****
+  Task 1: Total Trips 
+Find the total number of trips. 
+  Task 2: Trips from Bangalore 
+Count how many trips happened in "Bangalore". 
+  Task 3: Total Revenue 
+Calculate the total fare amount collected from all trips. 
+  Task 4: High Distance Trips 
+Print all trips where distance > 10 km. 
+  Task 5: Highest Fare Trip 
+Find the trip with the maximum fare. 
+  Task 6 (Bonus - Real Analyst Thinking  
+Find the average fare for Bangalore trips only. 
