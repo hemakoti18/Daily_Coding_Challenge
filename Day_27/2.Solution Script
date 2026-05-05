@@ -1,1 +1,70 @@
+  Task 1: Total Trips 
+Find the total number of trips.
+
+Code:
+# without loop
+total_trips = len(trips)
+print(f"Total number of trips : {total_trips}")
+
+Output:
+Total number of trips : 5
+----------------------------------------------------
+  Task 2: Trips from Bangalore 
+Count how many trips happened in "Bangalore". 
+
+Code:
+banglore_trips = len([trip for trip in trips if trip[1] == "Bangalore"])
+print(f"Bangalore Trips : {banglore_trips}")
+
+Output:
+Bangalore Trips : 3
+-------------------------------------------------------
+  Task 3: Total Revenue 
+Calculate the total fare amount collected from all trips.
+
+Code:
+Total_fare_amount = sum([ amount[3] for amount in trips ])
+print(f"Total_Fare_Amount : {Total_fare_amount}")
+
+Output:
+Total_Fare_Amount : 1050
+-----------------------------------------------------------
+  Task 4: High Distance Trips 
+Print all trips where distance > 10 km. 
+
+Code:
+High_distance_trips = [distance for distance in trips if distance[2] > 10]
+print(f"High_Distance_Trips : {High_distance_trips}")
+
+Output:
+High_Distance_Trips : [(101, 'Bangalore', 12.5, 250), (103, 'Bangalore', 15.2, 300)]
+----------------------------------------------------------------------------------------
+  Task 5: Highest Fare Trip 
+Find the trip with the maximum fare. 
+
+Code:
+Maximum_fare = max([fare[3] for fare in trips])
+print(f"Maximum fare : {Maximum_fare}")
+
+Output:
+Maximum fare : 300
+---------------------------------------------------------------------------------------
+
+  Task 6 (Bonus - Real Analyst Thinking  
+Find the average fare for Bangalore trips only. 
+
+Code:
+bangalore_avg_fare = 0
+b_trip_count = len([trip for trip in trips if trip[1] == "Bangalore"])
+for trip in trips:
+  if trip[1] == "Bangalore":
+   bangalore_avg_fare += trip[3]/b_trip_count
+print(f"Banglore Average Fare : {bangalore_avg_fare}")
+
+Output:
+Banglore Average Fare : 250.0
+
+
+
+
 
