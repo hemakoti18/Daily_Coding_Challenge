@@ -1,1 +1,26 @@
+*****    Strings & Tuples    ******
 
+  Challenge 1: Find Longest Student Name 
+Find the longest name from tuple. 
+   Input 
+students = ("Anu", "Ravikumar", "Jo") 
+ 
+Challenge 2: Join Subjects into Single String 
+Display subjects in UI 
+   Input 
+subjects = ("Math", "Science", "English") 
+ 
+Challenge 3: Reverse Each Student Name 
+Data masking requirement 
+   Input 
+students = ("Anu", "Ravi") 
+ 
+ Challenge 4: Count Vowels in Each Name 
+Analyze student names 
+   Input 
+students = ("Anu", "Ravi") 
+ 
+ Challenge 5: Convert Tuple to Uppercase String 
+Prepare report header 
+   Input 
+courses = ("python", "sql", "power bi")
