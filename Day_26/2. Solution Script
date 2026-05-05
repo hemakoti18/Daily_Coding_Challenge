@@ -10,5 +10,64 @@ longest_name = [student for student in students if len(student) == max([len(stud
 print(f"Longest_name : {longest_name}")
 Output:
 Longest_name : ['Ravikumar']
+------------------------------------------------------------------------------------
+Challenge 2: Join Subjects into Single String
+Display subjects in UI
+Input :
+subjects = ("Math", "Science", "English")
+
+# Traditional loop
+subjects = ("Math", "Science", "English")
+sub = ""
+for i,s in enumerate(subjects, start=1):
+    sub = f"{i}.{s} "  # Space add chesthe chudaniki baguntundi -- with f-string
+  # sub += s + " " ----  with +
+    print(sub)
+Output:
+1.Math 2.Science 3.English 
+------------------------------------------------------------------------------------
+Challenge 3: Reverse Each Student Name
+Data masking requirement
+Input
+students = ("Anu", "Ravi")
+
+# without loop
+students = ("Anu","Ravi")
+reverse_name = list(map(lambda s: s[::-1],students))
+rev_str_name = ", ".join(reverse_name)
+print(reverse_name)
+print(rev_str_name)
+
+Output:
+['unA', 'ivaR']
+unA, ivaR
+------------------------------------------------------------------------------------
+
+Challenge 4: Count Vowels in Each Name
+Analyze student names
+Input:
+students = ("Anu", "Ravi")
+
+# without loop
+vowel_count = ", ".join(map(lambda name: f"{name} : {sum([1 for char in name if char in vowels])}", students))
+print(vowel_count)
+
+Output:
+Anu : 2, Ravi : 2
+
+---------------------------------------------------------------------------------------
+Challenge 5: Convert Tuple to Uppercase String
+Prepare report header 
+Input
+courses = ("python", "sql", "power bi") 
+
+# without map
+courses = ("python", "sql", "power bi") 
+upper_case = ", ".join(map(str.upper,courses)) # ikkada function ki () ivvakudadhu----- upper() ❌ upper ✅
+print(upper_case)
+
+Output:
+PYTHON, SQL, POWER BI
+
 
 
