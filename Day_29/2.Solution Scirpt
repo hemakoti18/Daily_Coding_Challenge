@@ -39,5 +39,49 @@ print(f"{name} - {max_marks}")
 
 Output:
 John - 270
-
+------------------------------------------------------------------
 3. Find students who failed in any subject 
+Code:
+# ikkada oka empty dictionary create chesthunnam
+failed_in_any_subject = {}
+
+# ikkada failed_subjects = [] ani rasthe:
+"""
+Ravi (Math లో ఫెయిల్): {'Ravi': ['Math']}
+Suresh (Science లో ఫెయిల్): {'Ravi': ['Math', 'Science'], 'Suresh': ['Math', 'Science']}
+
+"""
+
+# dictionary key-value pairs ni loop chesthunnam
+for name, info in students.items():
+
+  """
+  ప్రతి స్టూడెంట్‌కి కొత్తగా సబ్జెక్టులు లెక్కపెట్టాలి.
+  లూప్ లోపల failed_subjects = [] అని రాయడం వల్ల,
+  ఒక స్టూడెంట్ చెకింగ్ అయిపోగానే,
+  ఆ పాత డేటాను తుడిచేసి,
+  నెక్స్ట్ స్టూడెంట్ కోసం ఖాళీ లిస్ట్‌తో ఫ్రెష్‌గా స్టార్ట్ అవుతుంది.
+
+  """
+  failed_subjects = []
+
+  # ikkada info - nested dict ni loop chesthunnam
+  for subject, marks in info.items():
+    if marks < 35:
+      failed_subjects.append(failed_subjects)
+
+  # Empty List Check: Python lo [] (empty list) ante False. ['Math'] (data unna list) ante True.
+  # Pass ayina student ki: failed_subjects list ఖాళీగా ([]) untundi. Appudu if condition False ayyi, aa student peru dictionary loki add avvadhu.
+  # Fail ayina student ki: failed_subjects list lo kaneesam okka subject (['Math']) untundi. Appudu if condition True ayyi, valla details dictionary lo save avthayi.
+
+  if failed_subjects:
+
+    # kotha dictionary lo keys ni values ni assign chesthunnam
+    failed_in_any_subject[name] = failed_subjects
+
+    
+print(failed_in_any_subject)
+
+Output:
+{}
+
