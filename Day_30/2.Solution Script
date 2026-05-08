@@ -1,1 +1,114 @@
 
+1. STRING Challenge 
+ Problem: Longest Substring Without Repeating Characters 
+Description: 
+Given a string, find the length of the longest substring without repeating characters. 
+Input: 
+"abcabcbb" 
+
+Code:
+string = "abcabcbb" 
+remove_duplicates = "".join(sorted(set(string)))
+len_of_string = len(remove_duplicates)
+print(f"Substring Characters : {remove_duplicates}")
+print(f"Length of the Longest substring : {len_of_string}")
+
+Output:
+Substring Characters : abc
+Length of the Longest substring : 3
+
+----------------------------------------------------------------------------------------
+ 
+2. LIST Challenge 
+Problem: Remove Duplicates While Preserving Order 
+Description: 
+Given a list of integers, remove duplicates while maintaining the original order. 
+Input: 
+[1, 2, 2, 3, 4, 3, 5] 
+
+Code:
+# sorted(set())
+new_list = sorted(set(num_list))
+print(f"New List : {new_list}")
+
+Output:
+New List : [1, 2, 3, 4, 5]
+
+---------------------------------------------------------------------------
+ 
+3. TUPLE Challenge 
+Problem: Find Maximum and Minimum 
+Description: 
+Given a tuple of numbers, find the maximum and minimum values. 
+Input: 
+(10, 5, 20, 8) 
+
+Code:
+num = (10, 5, 20, 8)
+max_num = max(num)
+min_num = min(num)
+print(f"Maximum : {max_num}")
+print(f"Minimum : {min_num}")
+
+Output:
+Maximum : 20
+Minimum : 5
+
+-------------------------------------------------------------------------------
+ 
+ 4. DICTIONARY Challenge 
+ Problem: Character Frequency Counter 
+Description: 
+Given a string, count the frequency of each character and store it in a dictionary. 
+Input: 
+"programming" 
+
+Code:
+#  2. లిస్ట్ ఇన్ డిక్షనరీ (List in dictionary):
+# 'r': [1, 4] - అంటే ఒకే కీ కింద రెండు వాల్యూస్‌ని దాచడం.
+
+string = "programming"
+
+# created dictionary
+char_frequency = {}
+
+# loop characters in string
+for index, char in enumerate(string):
+  if char not in char_frequency :
+    char_frequency[char] = [index]
+  else:
+    char_frequency[char].append(index)
+  
+print(char_frequency)
+
+Output:
+{'p': [0], 'r': [1, 4], 'o': [2], 'g': [3, 10], 'a': [5], 'm': [6, 7], 'i': [8], 'n': [9]}
+
+--------------------------------------------------------------------------------------------------------
+ 
+ Challenge (Intermediate) 
+ Problem: Group Words by Length 
+Description: 
+Given a list of words, group them based on their length using a dictionary. 
+Input: 
+["cat", "dog", "elephant", "bat", "tiger"] 
+
+Code:
+words = ["cat", "dog", "elephant", "bat", "tiger"]
+grouped_words = {}
+
+for word in words:
+    length = len(word) # Word length kanukkuntunnam
+    
+    if length not in grouped_words:
+        # Ee length modati sari vasthe, oka kotha list create chesthunnam
+        grouped_words[length] = [word]
+    else:
+        # Ee length dictionary lo munde unte, unna list ki word ni add chesthunnam
+        grouped_words[length].append(word)
+
+print(grouped_words)
+
+Output:
+{3: ['cat', 'dog', 'bat'], 8: ['elephant'], 5: ['tiger']}
+
