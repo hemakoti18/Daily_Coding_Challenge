@@ -1,1 +1,43 @@
+Coding Challenge  
 
+
+Level 1: Understanding Logic 
+1. Even or Odd Checker 
+Write a program that takes a number and prints: 
+• "Even" if divisible by 2  
+• "Odd" otherwise  
+ Concept: if condition 
+ 
+2. Positive, Negative or Zero 
+Take a number and print: 
+• "Positive"  
+• "Negative"  
+• "Zero"  
+ Concept: multiple if-elif-else 
+ 
+3. Print Numbers from 1 to N 
+Take a number N and print numbers from 1 to N using a while loop. 
+ Concept: while loop basics 
+ 
+  Level 2: Real Thinking 
+4. Sum of First N Numbers 
+Input: N 
+Output: sum from 1 + 2 + ... + N 
+ Use while loop 
+ 
+ 
+5. Password Retry System  
+Ask user to enter password: 
+• If correct → print "Access Granted"  
+• If wrong → ask again  
+• Stop after 3 attempts  
+ Concept: while + if + counter 
+ 
+6. Multiplication Table 
+Input: a number 
+Output: print its table up to 10 
+Example: 
+5 x 1 = 5 
+5 x 2 = 10 
+... 
+ Concept: loop + formatting 
