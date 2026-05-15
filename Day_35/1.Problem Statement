@@ -1,1 +1,41 @@
-
+Coding Challenge : Built in Function  Python 
+ 
+  Challenge 1: Flatten a Nested List 
+Concepts: list comprehension 
+ Problem: 
+nested = [[1, 2], [3, 4], [5]] 
+ Expected Output: 
+[1, 2, 3, 4, 5] 
+ 
+  Challenge 2: Check Anagram 
+Concepts: sorted() 
+ Problem: 
+Check if two strings are anagrams. 
+s1 = "listen" 
+s2 = "silent" 
+Expected Output: 
+True 
+ 
+  Challenge 3: Find Missing Number 
+Concepts: set() 
+ Problem: 
+nums = [1, 2, 4, 5] 
+     Expected Output: 
+3 
+Hint: 
+Compare with full range using set difference. 
+ 
+  Challenge 4: Group Words by First Letter 
+Concepts: dict, setdefault() 
+ Problem: 
+words = ["apple", "ant", "banana", "bat"] 
+Expected Output: 
+{'a': ['apple', 'ant'], 'b': ['banana', 'bat']} 
+ 
+  Challenge 5: Remove Empty Values 
+Concepts: dictionary comprehension 
+Problem: 
+data = {"a": 1, "b": None, "c": 3, "d": None} 
+ Expected Output: 
+{'a': 1, 'c': 3} 
+ 
