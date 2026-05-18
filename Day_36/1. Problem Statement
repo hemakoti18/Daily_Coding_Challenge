@@ -1,1 +1,29 @@
+------        Student Batch Performance Analyzer      ----------
 
+
+Create user-defined functions in Python to analyze student performance data. 
+Your functions should: 
+1. calculate_average(values) 
+Return the average of a list of numbers.  
+2. find_top_performers(data, column, threshold) 
+Return students whose score in the given column is greater than or equal to the 
+threshold.  
+3. find_at_risk_students(data, column, threshold) 
+Return students whose score in the given column is below the threshold.  
+4. batch_summary(data) 
+Return summary insights such as:  
+o total students  
+o average attendance  
+o average assignment submission  
+o average total consumption  
+5. rank_batches(batch_data) 
+Compare multiple batches and return the best-performing batch.  
+Sample challenge statement: 
+You are given student performance data for three batches: b7, b8, and b9. 
+Write Python user-defined functions to calculate batch-level insights and identify: 
+• best batch overall  
+• top-performing students  
+• at-risk students  
+• average attendance  
+• average assignment submission  
+• average content consumption  
